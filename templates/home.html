@@ -1,0 +1,26 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    <title>Youtube downloader</title>
+</head>
+    <body>
+        <div>
+            <h1>Youtube downloader</h1>
+        </div>
+        <div class="enterURL">
+           <form action="" method="post">
+                {% csrf_token %}
+                <label for="link">Enter URL:</label>
+                <input type="text" id="link" name="link"><br><br>
+                <input type="submit" value="Download" id="submit">
+            </form>
+            </div>
+</body>
+</html>
+
+
+
