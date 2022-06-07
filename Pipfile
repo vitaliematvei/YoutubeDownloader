@@ -8,6 +8,7 @@ django = "*"
 pytube = "*"
 youtube-dl = "*"
 gunicorn = "*"
+whitenoise = "*"
 
 [dev-packages]
 
